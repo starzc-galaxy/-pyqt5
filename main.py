@@ -9,7 +9,6 @@ classes: Mes()
 function：
 """
 import pyautogui
-from datetime import datetime
 import time
 from selenium import webdriver
 import sys
@@ -17,10 +16,6 @@ from PyQt5.QtCore import QThread,pyqtSignal,Qt
 from PyQt5.QtWidgets import QApplication,QFileDialog, QMainWindow,QMessageBox,QCheckBox,QAbstractItemView,QTableView,QTableWidgetItem,QTableWidget
 from taobaoui import Ui_mainWindow
 
-
-MQTT_IP = "192.168.1.88"
-MQTT_PORT = 1883
-URL = "http://192.168.1.88:32888/api/workorder/pc"
 
 class Mytaobao():
     def __init__(self):
